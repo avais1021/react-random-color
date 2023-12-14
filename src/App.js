@@ -18,7 +18,7 @@ const App = () => {
       {/* <div className="main" style={`background : {#${randomColor}}`}> */}
       <div className="main" style={{background : `#${randomColor}`}}>
         <div className="box">
-          <h2 id="colorId"></h2>
+          <h2 id="colorId">Click Here To Change The Random Background</h2>
           <button id="btn" onClick={handleClick}>Click Here</button>
           <div className="imgPar">
             <img className="clipboard" src="copyIcon.png" alt="" />
